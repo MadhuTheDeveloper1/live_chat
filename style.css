@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+img{
+
+    height: 200px;
+    transform: rotate(90deg);
+    animation: myAnimation 1s infinite;
+}
+
+@keyframes myAnimation {
+    from {margin-top: 50px;}
+    to {margin-top: 200px;}
+}
