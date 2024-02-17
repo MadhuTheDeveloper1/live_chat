@@ -6,15 +6,23 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 80vh;
+    flex-direction: column;
 }
 
-img{
-
-    height: 200px;
+.arrow{
+    position: absolute;
+    z-index: 2;
+    height: 100px;
     transform: rotate(90deg);
     animation: myAnimation 1s infinite;
 }
+
+
+.bhav{
+    height: 100px;
+}
+
 
 @keyframes myAnimation {
     from {margin-top: 50px;}
