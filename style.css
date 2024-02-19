@@ -1,5 +1,6 @@
 body{
     background-color: black;
+    font-family: "Poppins", sans-serif;
 }
 
 .container{
@@ -8,6 +9,7 @@ body{
     justify-content: center;
     height: 80vh;
     flex-direction: column;
+    color: yellow;
 }
 
 .arrow{
